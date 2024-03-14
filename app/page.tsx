@@ -6,6 +6,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { Container, Stack, Box, Typography } from "@mui/material";
+import "animate.css";
 
 const darkTheme = createTheme({
     palette: {
@@ -41,7 +42,7 @@ export default function Home() {
                         alt="Emo cat plinking"
                         width={640}
                         height={256}
-                        className="mb-14"
+                        className="mb-14 animate__animated animate__flash animate__infinite"
                     />
                 </Box>
                 <Stack spacing={12}>
